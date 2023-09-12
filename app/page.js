@@ -60,8 +60,8 @@ if (isLoading) {
           </div>
         </div>
         <div className="flex space-x-4">
-        <a className="m-2" href=""><FontAwesomeIcon icon={faXTwitter} className='text-white hover:text-[#264F51]' size="lg" style={{ width: '24px', height: '24px' }} /></a>
-        <a className="m-2" href=""><FontAwesomeIcon className='text-white hover:text-[#264F51]' icon={faTelegram} size="lg" style={{ width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/gamegigglegem"><FontAwesomeIcon icon={faXTwitter} className='text-white hover:text-[#264F51]' size="lg" style={{ width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/gamegigglegem"><FontAwesomeIcon className='text-white hover:text-[#264F51]' icon={faTelegram} size="lg" style={{ width: '24px', height: '24px' }} /></a>
         </div>
       </div>
       {isMenuOpen && (
@@ -77,7 +77,7 @@ if (isLoading) {
               <a href="#team-section" className="text-white hover:text-[#264F51]">Team</a>
             </li>
             <li>
-              <a href="" className="text-white hover:text-[#264F51]">Telegram</a>
+              <a href="https://t.me/gamegigglegem" className="text-white hover:text-[#264F51]">Telegram</a>
             </li>
           </ul>
         </nav>
