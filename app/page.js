@@ -89,7 +89,7 @@ if (isLoading) {
     <section id='intro' className="bg-gray-900 md:py-12">
   <div className="container mx-auto flex flex-col items-center">
     <img src="/cover.jpeg" alt="Banner" className="w-full max-w-lg mb-6 md:max-w-xl lg:max-w-2xl md:w-2/3 md:rounded-lg shadow-lg" />
-    <h2 className="text-2xl font-bold text-gray-100 mb-4">Welcome to the realm of GiggleGameGem</h2>
+    <h2 className="text-2xl font-bold text-gray-100 mb-4 text-center">Welcome to the realm of GiggleGameGem</h2>
     <p className="text-gray-100 text-lg text-center">Where crypto meets laughter and innovation meets accessibility. 🌐😂💎</p>
   </div>
 </section>
