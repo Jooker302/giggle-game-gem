@@ -57,10 +57,10 @@ const TeamSection = () => {
   return (
     <section
       id="team-section"
-      className={`bg-white py-12 ${isVisible ? 'slide-up active' : 'slide-up'}`}
+      className={`bg-gray-900 py-12 ${isVisible ? 'slide-up active' : 'slide-up'}`}
     >
       <div className="container mx-auto">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Our Team</h2>
+        <h2 className="text-2xl font-bold text-gray-100 mb-6 text-center">Our Team</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {teamMembers.map((member, index) => (
             <a href={member.link} key={index}>
@@ -70,7 +70,7 @@ const TeamSection = () => {
                 alt={member.name}
                 className="w-32 h-32 md:w-40 md:h-40 rounded-lg shadow-lg mb-2"
               />
-              <p className="text-gray-800 font-semibold">{member.name}</p>
+              <p className="text-gray-100 font-semibold">{member.name}</p>
             </div>
             </a>
           ))}
